@@ -1,0 +1,211 @@
+{
+  "CoolingAndHeatingAtTheSameTime_ValueAsSwitch -\u003e modbus:data:effcb8d9:switch": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "effcb8d9",
+          "switch"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "CoolingAndHeatingAtTheSameTime_ValueAsSwitch"
+    }
+  },
+  "MinimumRoomTemperature_ValueAsNumber -\u003e modbus:data:565abf74:number": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "565abf74",
+          "number"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "MinimumRoomTemperature_ValueAsNumber"
+    }
+  },
+  "AllowActiveCooling_ValueAsSwitch -\u003e modbus:data:3f8b47cd:switch": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3f8b47cd",
+          "switch"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "AllowActiveCooling_ValueAsSwitch"
+    }
+  },
+  "MaximumWaterTemperature_ValueAsNumber -\u003e modbus:data:7dc6ac1b:number": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "7dc6ac1b",
+          "number"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "MaximumWaterTemperature_ValueAsNumber"
+    }
+  },
+  "WantedWaterTemperature_ValueAsNumber -\u003e modbus:data:6e53b8aa:number": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "6e53b8aa",
+          "number"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "WantedWaterTemperature_ValueAsNumber"
+    }
+  },
+  "ElectricalSupplementHeater_ValueAsSwitch -\u003e modbus:data:a2a79d41:switch": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "a2a79d41",
+          "switch"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "ElectricalSupplementHeater_ValueAsSwitch"
+    }
+  },
+  "FireAlarm_ValueAsSwitch -\u003e modbus:data:4545ff58:switch": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "4545ff58",
+          "switch"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "FireAlarm_ValueAsSwitch"
+    }
+  },
+  "MinimumWaterTemperature_ValueAsNumber -\u003e modbus:data:e78b5831:number": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "e78b5831",
+          "number"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "MinimumWaterTemperature_ValueAsNumber"
+    }
+  },
+  "MaximumRoomTemperature_ValueAsNumber -\u003e modbus:data:4f324856:number": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "4f324856",
+          "number"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "MaximumRoomTemperature_ValueAsNumber"
+    }
+  },
+  "WantedRoomTemperature_ValueAsNumber -\u003e modbus:data:85ef7923:number": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "85ef7923",
+          "number"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "WantedRoomTemperature_ValueAsNumber"
+    }
+  },
+  "FanSpeed_ValueAsDimmer -\u003e modbus:data:756781e7:dimmer": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "756781e7",
+          "dimmer"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "FanSpeed_ValueAsDimmer"
+    }
+  }
+}

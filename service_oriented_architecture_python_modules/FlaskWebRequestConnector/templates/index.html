@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Rik Wachner - 1720651">
+    <meta name="viewport" content="width=device-width">
+    <title>PingMyHealth | PoC</title>
+    <script type=text/javascript src="{{url_for('static', filename='js/main.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="{{ url_for('static',filename='img/pingmyhealth_logo.jpeg') }}">
+        </div>
+      </div>
+    </header>
+    <!-- Hauptteil -->
+    <section id="showcase">
+      <div class="container">
+            <h1>FLASK-Server: Online</h1>
+      </div>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="{{ url_for('static',filename='img/flask.png') }}">
+          <h3>FlaskServer</h3>
+          <p>Smart Home IFTTT Gateway</p>
+          <p>Kommunikation mit IFTTT und dem PingMyHealth System</p>
+        </div>
+        <div class="box">
+          <img src="{{ url_for('static',filename='img/openhab_logo.png') }}">
+          <h3>OpenHAB</h3>
+          <p>Leitsystem Kontrollpanel</p>
+          <p>Steuerung von beteiligten Sensoren und Aktoren</p>
+        </div>
+        <div class="box">
+          <img src="{{ url_for('static',filename='img/grafana_logo.png') }}">
+          <h3>Grafana</h3>
+          <p>Historisierung</p>
+          <p>Überwachung aller erhobenen Werte</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>PingMyHealth -- Industrial IT -- Rik Wachner</p>
+    </footer>
+  </body>
+</html>

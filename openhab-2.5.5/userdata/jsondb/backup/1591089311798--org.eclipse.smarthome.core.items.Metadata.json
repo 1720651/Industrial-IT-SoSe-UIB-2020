@@ -1,0 +1,80 @@
+{
+  "autoupdate:FireAlarm_ValueAsSwitch": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "autoupdate",
+          "FireAlarm_ValueAsSwitch"
+        ]
+      },
+      "value": "true",
+      "configuration": {}
+    }
+  },
+  "autoupdate:FanSpeed_ValueAsDimmer": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "autoupdate",
+          "FanSpeed_ValueAsDimmer"
+        ]
+      },
+      "value": "true",
+      "configuration": {}
+    }
+  },
+  "autoupdate:MinimumRoomTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "autoupdate",
+          "MinimumRoomTemperature_ValueAsNumber"
+        ]
+      },
+      "value": "true",
+      "configuration": {}
+    }
+  },
+  "autoupdate:AllowActiveCooling_ValueAsSwitch": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "autoupdate",
+          "AllowActiveCooling_ValueAsSwitch"
+        ]
+      },
+      "value": "true",
+      "configuration": {}
+    }
+  },
+  "autoupdate:MaximumWaterTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "autoupdate",
+          "MaximumWaterTemperature_ValueAsNumber"
+        ]
+      },
+      "value": "true",
+      "configuration": {}
+    }
+  },
+  "autoupdate:MinimumWaterTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "autoupdate",
+          "MinimumWaterTemperature_ValueAsNumber"
+        ]
+      },
+      "value": "true",
+      "configuration": {}
+    }
+  }
+}

@@ -1,0 +1,54 @@
+osgi.wiring.bundle; (&(osgi.wiring.bundle=org.eclipse.xtext.xbase.lib)(bundle-version>=2.17.0))
+114
+osgi.wiring.package; (&(osgi.wiring.package=org.joda.time)(&(version>=2.9.0)(!(version>=3.0.0))))
+36; version=2.9.2
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.library.types)(&(version>=2.5.0)(!(version>=3.0.0))))
+133; version=2.5.0
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.emf.common)
+71
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.emf.ecore)
+72
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.xtext.xbase.lib)(&(version>=2.19.0)(!(version>=3.0.0))))
+114; version=2.19.0
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.items)(&(version>=2.5.0)(!(version>=3.0.0))))
+133; version=2.5.0
+osgi.ee; (&(osgi.ee=JavaSE)(version=1.8))
+0; version=[1.0.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0]
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.events)(&(version>=2.5.0)(!(version>=3.0.0))))
+133; version=2.5.0
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtext.util)
+111
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.persistence)(&(version>=2.5.0)(!(version>=3.0.0))))
+181; version=2.5.0
+osgi.wiring.package; (&(osgi.wiring.package=org.slf4j)(&(version>=1.7.0)(!(version>=2.0.0))))
+6; version=1.7.26
+osgi.wiring.bundle; (osgi.wiring.bundle=org.antlr.runtime)
+38
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.types)(&(version>=2.5.0)(!(version>=3.0.0))))
+133; version=2.5.0
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.persistence.config)(&(version>=2.5.0)(!(version>=3.0.0))))
+181; version=2.5.0
+osgi.wiring.package; (&(osgi.wiring.package=org.joda.time.base)(&(version>=2.9.0)(!(version>=3.0.0))))
+36; version=2.9.2
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.model.core)(&(version>=2.5.0)(!(version>=3.0.0))))
+161; version=2.5.0
+osgi.extender; (&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))
+43; version=1.4.0
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtend.lib)
+106
+osgi.wiring.bundle; (&(osgi.wiring.bundle=org.eclipse.xtext)(bundle-version>=2.17.0))
+108
+osgi.wiring.package; (&(osgi.wiring.package=com.google.common.base)(version>=14.0.0))
+22; version=27.1.0
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.common.registry)(&(version>=2.5.0)(!(version>=3.0.0))))
+133; version=2.5.0
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtext.common.types)
+109
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.i18n)(&(version>=2.5.0)(!(version>=3.0.0))))
+133; version=2.5.0
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.smarthome.core.persistence.strategy)(&(version>=2.5.0)(!(version>=3.0.0))))
+181; version=2.5.0
+osgi.wiring.bundle; (&(osgi.wiring.bundle=org.eclipse.xtext.xbase)(bundle-version>=2.17.0))
+112
+osgi.wiring.bundle; (osgi.wiring.bundle=org.openhab.core.model.item)
+162

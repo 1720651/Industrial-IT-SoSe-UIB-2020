@@ -1,0 +1,85 @@
+/* Body **/
+body{
+  font: 15px/1.5 Segoe UI;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/* Body > Header **/
+header{
+  background:#0083F5;
+  padding-bottom:15px;
+  border-bottom:#FFFFFF 3px solid;
+}
+
+.logo img{
+    width: 100px
+}
+
+/* Hauptteil */
+
+#showcase{
+  min-height:400px;
+  background:url('../img/background.jpg');
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:50px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:30px;
+}
+
+/* Technologien */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#FFFFFF;
+  background-color:#0083F5;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+    #showcase .row {
+    display: inline;
+   }
+
+}

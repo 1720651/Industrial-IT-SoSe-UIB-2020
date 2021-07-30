@@ -1,0 +1,89 @@
+{
+  "FireAlarm_ValueAsSwitch": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "[OFF / ON]"
+    }
+  },
+  "MaximumWaterTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [],
+      "label": "°C",
+      "category": "Temperature"
+    }
+  },
+  "MaximumRoomTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [],
+      "label": "°C",
+      "category": "Temperature"
+    }
+  },
+  "MinimumWaterTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [],
+      "label": "°C",
+      "category": "Temperature"
+    }
+  },
+  "MinimumRoomTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [],
+      "label": "°C",
+      "category": "Temperature"
+    }
+  },
+  "AllowActiveCooling_ValueAsSwitch": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "[OFF / ON]"
+    }
+  },
+  "FanSpeed_ValueAsDimmer": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Dimmer",
+      "tags": [],
+      "label": "Speed",
+      "category": "Flow"
+    }
+  },
+  "CoolingAndHeatingAtTheSameTime_ValueAsSwitch": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "[OFF / ON]"
+    }
+  },
+  "WantedRoomTemperature_ValueAsNumber": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [],
+      "label": "Value as Number",
+      "category": "Temperature"
+    }
+  }
+}

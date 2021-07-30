@@ -1,0 +1,3012 @@
+{
+  "modbus:data:4545ff58": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Fire Alarm",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "66f009f6"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4545ff58",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "default",
+          "writeType": "holding",
+          "writeTransform": "default",
+          "readStart": "203",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "203"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "4545ff58"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:poller:da8637c0": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Regular Poll [Poll_Interval: 1 sec; HR: 40101-40106]",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "tcp",
+          "a1266dca"
+        ]
+      },
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "start": 100,
+          "length": 6,
+          "refresh": 500,
+          "maxTries": 3,
+          "cacheMillis": 50,
+          "type": "holding"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "poller",
+          "da8637c0"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "poller"
+        ]
+      }
+    }
+  },
+  "modbus:data:effcb8d9": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Cooling and heating at the same time",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "66f009f6"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "effcb8d9",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "default",
+          "writeType": "holding",
+          "writeTransform": "default",
+          "readStart": "202",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "202"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "effcb8d9"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:data:e78b5831": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Minimum Water temperature",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "da8637c0"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "e78b5831",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "JS(temperature_read_scale.js)",
+          "writeType": "holding",
+          "writeTransform": "JS(temperature_write_scale.js)",
+          "readStart": "103",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "103"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "e78b5831"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:data:7dc6ac1b": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Maximum water temperature",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "da8637c0"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "7dc6ac1b",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "JS(temperature_read_scale.js)",
+          "writeType": "holding",
+          "writeTransform": "JS(temperature_write_scale.js)",
+          "readStart": "104",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "104"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "7dc6ac1b"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:tcp:a1266dca": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Modbus TCP Slave ID 1 [localhost:502]",
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "timeBetweenTransactionsMillis": 10,
+          "connectMaxTries": 1,
+          "reconnectAfterMillis": 0,
+          "port": 502,
+          "timeBetweenReconnectMillis": 0,
+          "host": "localhost",
+          "connectTimeoutMillis": 10000,
+          "id": 1,
+          "enableDiscovery": false
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "tcp",
+          "a1266dca"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "tcp"
+        ]
+      }
+    }
+  },
+  "modbus:data:3f8b47cd": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Allow active cooling",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "66f009f6"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "3f8b47cd",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "default",
+          "writeType": "holding",
+          "writeTransform": "default",
+          "readStart": "200",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "200"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "3f8b47cd"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:data:a2a79d41": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Electrical supplement heater",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "66f009f6"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "a2a79d41",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "default",
+          "writeType": "holding",
+          "writeTransform": "default",
+          "readStart": "201",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "201"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "a2a79d41"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:data:756781e7": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Fan Speed",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "d90d04d5"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "756781e7",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "JS(percentage_read_scale.js)",
+          "writeType": "holding",
+          "writeTransform": "JS(percentage_write_scale.js)",
+          "readStart": "0",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "0"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "756781e7"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:poller:66f009f6": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Regular Poll [Poll_Interval: 1 sec; HR: 40201-40204]",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "tcp",
+          "a1266dca"
+        ]
+      },
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "start": 200,
+          "length": 4,
+          "refresh": 500,
+          "maxTries": 3,
+          "cacheMillis": 50,
+          "type": "holding"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "poller",
+          "66f009f6"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "poller"
+        ]
+      }
+    }
+  },
+  "modbus:poller:d90d04d5": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Regular Poll [Poll_Interval: 1 sec; HR: 40001]",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "tcp",
+          "a1266dca"
+        ]
+      },
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "start": 0,
+          "length": 1,
+          "refresh": 500,
+          "maxTries": 3,
+          "cacheMillis": 50,
+          "type": "holding"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "poller",
+          "d90d04d5"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "poller"
+        ]
+      }
+    }
+  },
+  "modbus:data:4f324856": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Maximum room temperature",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "da8637c0"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "4f324856",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "JS(temperature_read_scale.js)",
+          "writeType": "holding",
+          "writeTransform": "JS(temperature_write_scale.js)",
+          "readStart": "101",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "101"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "4f324856"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  },
+  "modbus:data:565abf74": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Minimum room temperature",
+      "bridgeUID": {
+        "segments": [
+          "modbus",
+          "poller",
+          "da8637c0"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "number-type"
+            ]
+          },
+          "label": "Value as Number",
+          "description": "Number item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "switch-type"
+            ]
+          },
+          "label": "Value as Switch",
+          "description": "Switch item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "contact"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "contact-type"
+            ]
+          },
+          "label": "Value as Contact",
+          "description": "Contact item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "dimmer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "dimmer-type"
+            ]
+          },
+          "label": "Value as Dimmer",
+          "description": "Dimmer item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "datetime"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "datetime-type"
+            ]
+          },
+          "label": "Value as DateTime",
+          "description": "DateTime item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "string"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "string-type"
+            ]
+          },
+          "label": "Value as String",
+          "description": "String item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Rollershutter",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "rollershutter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "rollershutter-type"
+            ]
+          },
+          "label": "Value as Rollershutter",
+          "description": "Rollershutter item channel",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "lastReadSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-read-type"
+            ]
+          },
+          "label": "Last Successful Read",
+          "description": "Date of last read",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "lastReadError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-read-type"
+            ]
+          },
+          "label": "Last Erroring Read",
+          "description": "Date of last read error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "lastWriteSuccess"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-successful-write-type"
+            ]
+          },
+          "label": "Last Successful Write",
+          "description": "Date of last write",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "modbus",
+              "data",
+              "565abf74",
+              "lastWriteError"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "modbus",
+              "last-erroring-write-type"
+            ]
+          },
+          "label": "Last Erroring Write",
+          "description": "Date of last write error",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "readValueType": "int16",
+          "readTransform": "JS(temperature_read_scale.js)",
+          "writeType": "holding",
+          "writeTransform": "JS(temperature_write_scale.js)",
+          "readStart": "100",
+          "updateUnchangedValuesEveryMillis": 1000,
+          "writeValueType": "int16",
+          "writeMultipleEvenWithSingleRegisterOrCoil": false,
+          "writeMaxTries": 3,
+          "writeStart": "100"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "modbus",
+          "data",
+          "565abf74"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "modbus",
+          "data"
+        ]
+      }
+    }
+  }
+}
